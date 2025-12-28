@@ -1,0 +1,20 @@
+[project]
+name = "telusinger"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "beautifulsoup4>=4.14.3",
+    "duckduckgo-search>=8.1.1",
+    "ipykernel>=7.1.0",
+    "jupyterlab>=4.5.1",
+    "kaggle>=1.8.3",
+    "lancedb>=0.26.0",
+    "openpyxl>=3.1.5",
+    "pandas>=2.3.3",
+    "python-dotenv>=1.2.1",
+    "requests>=2.32.5",
+    "selenium>=4.39.0",
+    "unzip>=1.0.0",
+]
