@@ -16,5 +16,8 @@ dependencies = [
     "python-dotenv>=1.2.1",
     "requests>=2.32.5",
     "selenium>=4.39.0",
+    "undetected-chromedriver>=3.5.5",
     "unzip>=1.0.0",
+    "webdriver-manager>=4.0.2",
+    "yt-dlp>=2025.12.8",
 ]

@@ -164,10 +164,10 @@ class LyricstapeSerperScraper:
             
             if result.found:
                 self.save_file(song, movie, result)
-                print(f"✓ Found")
+                print(f" Found")
                 stats['found'] += 1
             else:
-                print("✗ Not found on Lyricstape")
+                print(" Not found on Lyricstape")
                 stats['missing'] += 1
                 
             time.sleep(REQUEST_DELAY)

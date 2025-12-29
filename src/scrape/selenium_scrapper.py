@@ -118,7 +118,7 @@ def main():
                 writer = csv.DictWriter(f, fieldnames=["song_name", "movie_album", "singers"])
                 writer.writeheader()
                 writer.writerows(unique)
-            print(f"✓ Saved to sirivennela_songs.csv")
+            print(f" Saved to sirivennela_songs.csv")
         
     finally:
         driver.quit()
